@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+/*
+
+START OF HEADER
+
+*/
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none; }
+
+header {
+  background-color: #18121E;
+  padding: 10rem; }
+
+header > .inner {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center; }
+
+header p {
+  font-size: 2.5rem;
+  color: #FFF;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif; }
+
+header p:nth-child(2) {
+  margin-top: 2rem; }
+
+nav {
+  width: 100%;
+  background-color: #FFF;
+  padding: .5rem;
+  text-align: center; }
+
+nav li {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+  font-family: 'Roboto Slab', serif;
+  cursor: pointer; }
+
+nav a {
+  color: #000; }
+
+/*
+
+END OF HEADER
+
+*/
+/*
+
+
+
+
+/*
+
+START OF ABOUT
+
+*/
+.about {
+  width: 100%;
+  padding-top: 4rem;
+  font-family: 'Roboto Slab', serif;
+  background-color: #984B43;
+  overflow: hidden; }
+
+.inner {
+  width: 70%;
+  margin: 0 auto; }
+
+.about .left {
+  width: 40%;
+  float: left; }
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold; }
+
+.about .left img {
+  width: 40%;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 2rem; }
+
+.about .left p {
+  font-size: 1.3rem;
+  line-height: 3rem;
+  font-weight: bold; }
+
+.about .right {
+  margin-left: 10%;
+  float: right;
+  width: 40%; }
+
+.about ul {
+  width: 50%; }
+
+.about .right li {
+  background: #FFF;
+  padding: .5rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background: #FFF;
+  display: block; }
+
+.about .right li:nth-of-type(1) {
+  width: 100%; }
+
+.about .right li:nth-of-type(2) {
+  width: 90%; }
+
+.about .right li:nth-of-type(3) {
+  width: 50%; }
+
+.about .right li:nth-of-type(4) {
+  width: 30%; }
+
+.about .right li:nth-of-type(5) {
+  width: 50%; }
+
+/*
+
+END OF ABOUT
+
+*/
+/*
+
+START OF CONTACT
+
+*/
+.contact {
+  width: 100%;
+  background-color: #233237;
+  padding: 3rem;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Roboto Slab', serif; }
+
+.contact p {
+  margin-top: 2rem; }
+
+.contact span {
+  color: #984B43; }
+
+/*
+
+END OF CONTACT
+
+*/
+/*
+
+
+START OF PORTFOLIO
+
+*/
+.portfolio {
+  background-color: #EAC67A;
+  padding: 3rem; }
+
+.portfolio h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Roboto Slab', serif; }
+
+.portfolio img {
+  width: 25%;
+  margin-left: 5%;
+  margin-top: 2rem;
+  display: inline-block;
+  height: auto; }
+
+/*
+
+END OF PORTFOLIO
+
+*/
